@@ -1,0 +1,46 @@
+@mixin s-header{
+    font-family: Gilroy-Bold;
+    font-size: 20px;
+    line-height: 23.44px;
+    text-align: left;
+    color: #103355;
+    padding-top: 10px;
+}
+
+@mixin s-paragraph{
+    width: 90%;
+    font-size: 16px;
+    color: #738499;
+    padding-top: 10px;
+    padding-bottom: 17px; 
+    font-family: Gilroy-Medium;
+    line-height: 27.16px;
+}
+
+@mixin s-btn{
+    color: #103355;
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+   // font-weight: bold;
+     line-height: 27.31px;
+      text-align: left;
+      text-decoration-line: none;
+    //   font-family: Gilroy-SemiBold;
+
+}
+
+@mixin copy-right{
+        width: 100%;
+        font-size: 16px;
+        // margin-top: 50px;
+        font-family: sans-serif;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        border-top: 1px solid rgba(215, 231, 248, 0.705);
+        
+        opacity: 0.6;
+        padding: 5px;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+}
